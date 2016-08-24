@@ -601,3 +601,11 @@
 	assignment = "visitor"
 	icon_state = "trader"
 	access = list(access_trade)
+
+/obj/item/weapon/card/id/tourist
+	name = "Platnium Space Mastercard" //The tourist ID is a credit card
+	desc = "An ideal credit card for any would be space explorer. Comes with 0% interest on any purchases made within the first two light years."
+	registered_name = "tourist"
+	assignment = "visitor"
+	icon_state = "tourist"
+	access = list() //tourists don't deserve access

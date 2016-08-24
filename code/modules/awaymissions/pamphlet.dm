@@ -36,3 +36,32 @@
 //we don't want the silly text overlay!
 /obj/item/weapon/paper/pamphlet/update_icon()
 	return
+
+/obj/item/weapon/paper/pamphlet/tourist
+	name = "tourism pamphlet"
+	info = "<b>Welcome to Nanotrasen's Newest Tourist Attraction!</b><br>\
+			 As a successful applicant to our ongoing tourism project, you have been selected to visit \
+			 one of our many research stations. As part of this program you will get to experience what \
+			 life is like in space aboard one of our high-tech, state of the art stations. <br><br> \
+			 Nanotrasen is dedicated to being a leader in all industries we participate in. This extends \
+			 to the Tourism and Hospitality industries as well. Your safety is our priority, and we want \
+			 you to enjoy your time on your assigned research station. We will be providing feedback forms \
+			 for you to fill out upon your return to Central Command so we can assess the viability of entering \
+			 the Space Tourism industry. We hope you enjoy your holiday!<br><br> \
+			 <b>Liability Release Notice</b><br> \
+			 By participating in this ongoing tourism project, you have agreed and do hereby release Nanotrasen \
+			 from all liability and hold harmless Nanotrasen and any of its employees representing or related to \
+			 Nanotrasen. This liability release is for any and all liability for personal injuries including death \
+			 and property losses or damages in connection with any activity or accommodation of Nanotrasen.\
+			 You furthermore agree to abide by all rules and regulations presented by Nanotrasen and all of its \
+			 Command and Security representatives. <br><br> \
+			 <b>Information we Collect and Use</b><br> \
+			 By participating in this ongoing tourism project, you have agreed and hereby allow Nanotrasen and all \
+			 Nanotrasen representatives to collect and store information about yourself, such as your name and \
+			 address, your genetic information and any other information that Nanotrasen and Nanotrasen's \
+			 representatives deem necessary to collect as part of our ongoing tourism project. Your name, address, \
+			 genetic information and any other information that has been collected as part of our ongoing tourism \
+			 project will be viewable and accessible by Nanotrasen representatives in accordance with the needs of \
+			 our ongoing research project. This information will be retained after your participation in our ongoing \
+			 tourism project ends."
+

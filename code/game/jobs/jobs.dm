@@ -45,6 +45,7 @@ var/const/CLOWN				=(1<<11)
 var/const/MIME				=(1<<12)
 var/const/ASSISTANT			=(1<<13)
 var/const/TRADER			=(1<<14)
+var/const/TOURIST			=(1<<15)
 
 
 var/list/assistant_occupations = list(
@@ -126,6 +127,7 @@ var/list/nonhuman_positions = list(
 
 var/list/misc_positions = list(
 	"Trader",
+	"Tourist",
 )
 
 /proc/guest_jobbans(var/job)

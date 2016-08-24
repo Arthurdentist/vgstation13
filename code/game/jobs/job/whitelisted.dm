@@ -60,3 +60,29 @@
 
 	if(req_admin_notify)
 		to_chat(M, "<b>You are playing a job that is important for Game Progression. If you have to disconnect, please notify the admins via adminhelp.</b>")
+
+/datum/job/tourist
+	title = "Tourist"
+	flag = TOURIST
+	department_flag = CIVILIAN
+	faction = "Station"
+	total_positions = 1
+	spawn_positions = 1
+	supervisors = "Central Command Tourism Board"
+	selection_color = "#dddddd"
+	access = list()// Tourists do not have any access
+	minimal_access = list()
+
+	species_whitelist = list("Human")
+
+	no_random_roll = 1
+	no_crew_manifest = 1
+
+/datum/job/tourist/equip(var/mob/living/carbon/human/H)
+	if(!H) return 0
+	H.put_in_hand(GRASP_RIGHT_HAND, new /obj/item/weapon/paper/pamphlet/tourist(H))
+
+	no_pda = 1
+
+	idtype = /obj/item/weapon/card/id/tourist
+
