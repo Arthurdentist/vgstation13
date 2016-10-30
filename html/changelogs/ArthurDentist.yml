@@ -1,2 +1,4 @@
 author: ArthurDentist
-changes: []
+changes:
+  - tweak: Now possible to get any robeless spell from 'Summon Magic', not just a couple different ones.
+
